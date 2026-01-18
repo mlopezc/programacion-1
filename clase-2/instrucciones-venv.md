@@ -11,6 +11,10 @@ cd mi_proyecto
 Crear el entorno virtual
 
 ```bash
+python -m venv <nombre del proyecto>
+```
+Ejemplo
+```
 python -m venv venv
 ```
 
@@ -26,11 +30,16 @@ venv\Scripts\activate
 source venv/bin/activate
 ```
 
-## 3. Instalar alguna librería de prueba
+## 3. Instalar algunas librería de prueba
 
 ```bash
 pip install easy_date
 ```
+
+```bash
+pip install cowsay
+```
+
 
 ## 4. Ver librerías instaladas
 
