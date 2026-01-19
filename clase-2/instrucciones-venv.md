@@ -15,7 +15,7 @@ python -m venv <nombre del proyecto>
 ```
 Ejemplo
 ```
-python -m venv venv
+python -m venv venvdeac
 ```
 
 ## 2. Activar el venv
