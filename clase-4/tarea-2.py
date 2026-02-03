@@ -301,5 +301,3 @@ personas = [
         "peso": 83.7
     }
 ]
-
-print(len(personas))
