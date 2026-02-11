@@ -23,7 +23,7 @@ def menu():
             case  _:
                 print("Opción inválida")
         opcion = int(input(mensaje))
-        print("Chau!")
+    print("Chau!")
 
 
 menu()
