@@ -15,12 +15,16 @@ def crear_personas():
     tommy.presentarse()
 
 def crear_carros():
-    rav4 = Carro("Toyota", "Rav4", "Gris")
-    crv = Carro("Honda", "CRV", "Azul")
+    toretto = Persona("Dominick Toretto", 35, "USA")
+    frank = Persona("Frank Martin", 38, "USA")
+    rav4 = Carro("Toyota", "Rav4", "Gris", frank)
+    crv = Carro("Honda", "CRV", "Azul", toretto)
     rav4.encender()
     rav4.apagar()
     crv.encender()
     crv.apagar()
+    crv.describir()
+    rav4.describir()
 
 def main():
     print("=====================================")

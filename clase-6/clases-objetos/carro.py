@@ -1,8 +1,10 @@
+from persona import Persona
 class Carro:
-    def __init__(self, marca, modelo, color):
+    def __init__(self, marca, modelo, color, dueno: Persona):
         self.marca = marca
         self.modelo = modelo
         self.color = color
+        self.dueno = dueno
         self.encendido = False
 
     def encender(self):
@@ -17,5 +19,6 @@ class Carro:
         print(
             "Carro:", self.marca,
             self.modelo,
-            "- Color:", self.color
+            "- Color:", self.color,
+            "- Dueño:", self.dueno.nombre
         )
