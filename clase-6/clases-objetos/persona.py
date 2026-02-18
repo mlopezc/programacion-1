@@ -1,5 +1,5 @@
 class Persona:
-    def __init__(self, nombre, edad, pais):
+    def __init__(self, nombre: str, edad: int, pais: str):
         self.nombre = nombre
         self.edad = edad
         self.pais = pais
@@ -16,3 +16,6 @@ class Persona:
             return True
         else:
             return False
+
+    def es_costarricense(self):
+        return self.pais == "Costa Rica"

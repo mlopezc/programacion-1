@@ -1,6 +1,6 @@
 from persona import Persona
 class Carro:
-    def __init__(self, marca, modelo, color, dueno: Persona):
+    def __init__(self, marca: str, modelo: str, color: str, dueno: Persona):
         self.marca = marca
         self.modelo = modelo
         self.color = color
