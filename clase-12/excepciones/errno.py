@@ -15,3 +15,10 @@ try:
 except OSError as e:
     if e.errno == errno.ENOENT:
         print("Archivo no encontrado")
+
+
+# Capturando errno
+except OSError as e:
+    e.errno      # número del error
+    e.strerror   # mensaje del sistema
+    e.filename   # archivo involucrado
