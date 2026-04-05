@@ -1,5 +1,5 @@
 import unittest
-from .libreria_mangas import LibreriaDeMangas
+from libreria import LibreriaDeMangas
 
 
 class TestLibreriaDeMangas(unittest.TestCase):
