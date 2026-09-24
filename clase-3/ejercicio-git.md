@@ -14,7 +14,7 @@ git add <directorio o archivo>
 ```
 ## 5 Haga commit de sus cambios
 ```
-git commit –m "mensaje descriptivo"
+git commit -m "mensaje descriptivo"
 ```
 
 ## 6 Revise el estado sde su repositorio
@@ -45,7 +45,7 @@ git commit –m "mensaje descriptivo"
 
 ## 11 Vuelva al branch original
 ```
-git checkout main
+git checkout master
 ```
 
 ## 12 Combine los cambios del nuevo branch con el branch main
