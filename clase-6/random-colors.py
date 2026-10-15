@@ -2,8 +2,8 @@ import random
 import string
 
 
-letra = random.choice(string.ascii_lowercase)
-print("\033[32m"+ letra +"\033[0m")
+letra = random.randint(1, 10)
+print("\033[32m"+ str(letra) +"\033[0m")
 print(letra)
 
 letra = random.choice(string.ascii_lowercase)
